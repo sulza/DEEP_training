@@ -1,0 +1,262 @@
+
+<html>
+<head>
+ <meta charset="UTF-8" />
+ <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <link rel="stylesheet" href="style.css" />
+ <link rel="shortcut icon" href="images/logo8.jpg" type="image/x-icon">
+ <title>About Us</title>
+ 
+ <style>
+ 
+     body {
+ margin: 0;
+ font-family: Arial;
+ color: rgba(255, 155, 205, 0.9);
+ background-color: rgb(125, 224, 138);
+ 
+} 
+  
+  .skeleton {
+ position: relative;
+ width: max-content;
+ overflow: hidden;
+ border-radius: 4px;
+ background-color: #ad22c9 !important;
+ color: transparent !important;
+ border-color: #e6b42d !important;
+ user-select: none;
+ cursor: default;
+}
+
+.skeleton img {
+ opacity: 0;
+}
+
+.skeleton::after {
+ position: absolute;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ transform: translateX(-100%);
+ background-image: linear-gradient(
+ 90deg,
+ rgba(205, 255, 255, 0) 0,
+ rgba(255, 205, 255, 0.2) 20%,
+ rgba(255, 255, 255, 0.5) 60%,
+ rgba(155, 255, 205, 0)
+ );
+ animation: shimmer 2s infinite;
+ content: '';
+}
+
+@keyframes shimmer {
+ 100% {
+ transform: translateX(100%);
+ }
+}
+
+img {
+ width: 100%;
+ vertical-align: middle;
+}
+
+
+.profile-container {
+ width: 70%;
+ max-width: 600px;
+ margin: 0 auto;
+ border-radius: 8px;
+ margin-top: 32px;
+ margin-bottom: 32px;
+ background-color: #1e2226;
+ overflow: hidden;
+ position: relative;
+}
+
+.cover-img {
+ width: 100%;
+ overflow: hidden;
+ background-color: #1e2226;
+ aspect-ratio: 4 / 1;
+}
+
+.profile-img {
+ border-radius: 50%;
+ width: 160px;
+ height: 160px;
+ border: 4px solid #000;
+ background-color: #1e2226;
+ margin: 0 auto;
+ position: relative;
+ overflow: hidden;
+ bottom: 100px;
+}
+
+@media (max-width: 560px) {
+ .profile-img {
+ width: 100px;
+ height: 100px;
+ bottom: 60px;
+ }
+}
+
+.profile-text {
+ margin-top: -80px;
+ padding: 0 16px;
+}
+
+.profile-text h1 {
+ margin-bottom: 0;
+ font-size: 24px;
+ overflow: hidden;
+}
+
+.profile-text p {
+ margin: 4px 0;
+ overflow: hidden;
+ text-align: center;
+}
+.profile-text h5 {
+ margin-top: 4px;
+ font-size: 14px;
+ margin-bottom: 8px;
+ font-weight: 400;
+ color: #15a01099;
+ overflow: hidden;
+ text-align: center;
+ 
+}
+.profile-text a {
+ color: #70b5f9;
+ font-size: 14px;
+ text-decoration: none;
+ font-weight: 600;
+ text-align: center;
+}
+
+.profile-text a:hover {
+ color: #70b5f9;
+ text-decoration: underline;
+}
+
+.profile-cta {
+ padding: 16px 16px 32px;
+ display: flex;
+ place-content: center;
+}
+.profile-cta a {
+ padding: 6px 16px;
+ border-radius: 24px;
+ text-decoration: none;
+ display: block;
+}
+
+.message-btn {
+ background-color: #70b5f9;
+ color: #000;
+}
+
+.more-btn {
+ color: inherit;
+ border: 1px solid rgba(255, 255, 255, 0.9);
+ margin-left: 8px;
+}
+
+
+ </style>
+ </head>
+ 
+<body>
+    
+ <div class="profile-container">
+ <div class="profile-images">
+ <div class="cover-img skeleton">
+ <img src="images/bg4.jpg">
+ </div>
+ <div class="profile-img skeleton">
+ <img src="images/sz.jpg" alt="CEO image">
+ </div>
+ </div>
+ 
+ <div class="profile-text">
+ <h1 class="skeleton" align="center" style="color:white">Suleiman Zakar<br><span style="font-size:14px;">CEO</span></h1>
+ 
+ <p class="skeleton">Software Engineer @ sulza training insitute || Self Taught</p>
+ <h5 class="skeleton">Hadejia, Jigawa State, Nigeria • <a class="skeleton" href="tel:+2348149247947">Contact Number</a></h5>
+ 
+ </div>
+ 
+ <div class="profile-cta">
+ <a class="message-btn skeleton" href=mailto:sulzahja@sulza.com?subject=inquiry>Message</a>
+ <a class="more-btn skeleton" href="/#">More</a>
+ </div>
+ 
+ </div>
+ 
+ <!-- second-->
+ 
+ <div class="profile-container">
+ <div class="profile-images">
+ <div class="cover-img skeleton">
+ <img src="images/bg4.jpg">
+ </div>
+ <div class="profile-img skeleton">
+ <img src="images/sagiru.png" alt="Director logo">
+ </div>
+ </div>
+ <div class="profile-text">
+ <h1 class="skeleton" align="center" style="color:white">Sagir Muhammad <br><span style="font-size:14px;">Director</span> </h1>
+ <p class="skeleton">Hardware Engineer @ Sulza training insitute || Self Taught</p>
+ <h5 class="skeleton">Gwadalada, Abuja Nigeria • <a class="skeleton" href="tel:+2349029102360">Contact Number</a></h5>
+ </div>
+ 
+ <div class="profile-cta">
+ <a class="message-btn skeleton" href=mailto:sagirm@sulza.com?subject=inquiry>Message</a>
+ <a class="more-btn skeleton" href="/#">More</a>
+ </div>
+ 
+ </div>
+ 
+ <!--third -->
+ 
+ <div class="profile-container">
+ <div class="profile-images">
+ <div class="cover-img skeleton">
+ <img src="images/bg4.jpg">
+ </div>
+ <div class="profile-img skeleton">
+ <img src="images/kubra.jpg" alt="Coordinator logo">
+ </div>
+ </div>
+ <div class="profile-text">
+ <h1 class="skeleton" align="center" style="color:white">Hauwa Muhammad <br><span style="font-size:14px;">Coordinator</span></h1>
+ <p class="skeleton">System Analyist @ Sulza training insitute || Self Taught</p>
+ <h5 class="skeleton">Tsakuwa, Kano State, Nigeria • <a class="skeleton" href="tel:+2348140462128">Contact number</a></h5>
+
+ </div>
+ 
+ <div class="profile-cta">
+ <a class="message-btn skeleton" href=mailto:jiddatulkubra@sulza.com?subject=inquiry> Message</a>
+ <a class="more-btn skeleton" href="/#">More</a>
+ </div>
+ 
+ </div>
+ 
+ 
+ <script>
+ //To display the Message above the background.
+ const skeletons = document.querySelectorAll('.skeleton')
+skeletons.forEach((skeleton) => {
+ setTimeout(() => {
+ skeleton.classList.remove('skeleton')
+ }, 3000)
+})
+
+
+ </script>
+
+</body>
+</html>
